@@ -63,6 +63,27 @@ nav .nav-button button{
 
 }
 
+.btn .btn-left {
+  padding: 6px 10px;
+  background-color: #469165;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn .btn-right {
+   padding: 12px 16px;
+ background: linear-gradient(to top, #627382,#001931  );
+  color: white;
+  border: 1px solid black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+
+
 
 #hero .hero-content .hero-heading h4{
   background:  #30B868;
@@ -142,4 +163,100 @@ color: #627382;
   width: 274px;
   height: 40px;
 }
+
+.brain-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+}
+
+.brain-content .brain-img img{
+  width: 100%;
+}
+
+.brain-structure h5{
+  font-size: 16px;
+  color: #627382;
+}
+
+.brain-structure h1{
+  color: #001931;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: auto;
+}
+.brain-structure p{
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
+
+.brain-structure ul li{
+  color: #1E1E1E;
+  list-style: none;
+
+
+
+
+}
+
+.clear-all{
+  text-align: center;
+  
+}
+
+.clear-all h1{
+
+  color: #001931;
+  font-size: 40px;
+  font-weight: bold;
+
+
+}
+
+.clear-all p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+}
+
+
+.clear-all .nav-button{
+  padding: 12px 16px;
  
+}
+.clear-all .nav-button button {
+  padding: 12px 16px;
+  background-color: #469165;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.social-logo img{
+  width: 139px;
+  height: 60px;
+
+}
+
+.social-img img {
+  width: 20px;
+
+}
+
+#social {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+   background: linear-gradient(to top, #627382,#001931  );
+}
+.social-link {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.social-img h5, p{
+  color: #ffffff;
+}
