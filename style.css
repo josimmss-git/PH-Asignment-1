@@ -82,4 +82,64 @@ nav .nav-button button{
   color: #30B868;
 }
 
+.apps-content{
+  padding: 120px;
+}
+
+.apps-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.apps-heading{
+  text-align: center;
+}
+
+.apps-heading h1{
+  color: #001931;
+}
+
+
+.apps-heading p{
+font-size: 16;
+line-height: 20px;
+color: #627382;
+}
+
+
+.apps-card img{
+  background: #F95555;
+  width: 40px;
+  border-radius: 25px;
+}
+
+.apps-card {
+  width: 300px;
+  height: 280px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.215);
+  padding: 24px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 5px;
+
+  
+
+}
+
+.apps-card h4{
+  font-size: 24px;
+  color: #001931;
+  width: 274px;
+  line-height: auto;
+
+
+}
+.apps-card p{
+  color: #627382;
+  width: 274px;
+  height: 40px;
+}
  
