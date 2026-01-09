@@ -1,0 +1,55 @@
+body{
+font-family: "Inter", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+.container{
+  width: 70%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav .nav-logo img{
+  width: 139px;
+ 
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 120px;
+  border: 1px solid red;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  padding: 0;
+}
+
+nav .nav-heading{
+  color: #001931;
+  font-size: 16px;
+}
+
+nav .nav-button{
+  padding: 12px 16px;
+ 
+}
+nav .nav-button button{
+  padding: 12px 16px;
+  background-color: #469165;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+  
+
+
